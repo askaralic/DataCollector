@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Base Application</string>
+
+    <string name="app_font">SamsungSans-Regular.ttf</string>
+    <string name="msg_error_occured">Error Occurred!</string>
+    <string name="check_internet_conn">Check Internet Connection</string>
+    <string name="please_wait_msg">Please Wait</string>
+</resources>
