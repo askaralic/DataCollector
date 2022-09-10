@@ -3,8 +3,10 @@ package com.dt.baseapplication.di;
 import android.content.Context;
 
 import com.dt.baseapplication.App;
+import com.dt.baseapplication.presenter.LoginPresenter;
 import com.dt.baseapplication.presenter.MainPresenter;
 import com.dt.baseapplication.view.IBaseView;
+import com.dt.baseapplication.view.ILoginView;
 import com.dt.baseapplication.view.IMainView;
 
 import dagger.Module;
@@ -28,8 +30,16 @@ public class ActivityModule extends BaseModule {
 
     @Provides
     @PerActivity
-    MainPresenter getPreLoginPresenter(Context ctx) {
+    MainPresenter getMainPresenter(Context ctx) {
         return new MainPresenter((IMainView) mIView,
                 App.from(ctx).getComponent());
     }
+
+    @Provides
+    @PerActivity
+    LoginPresenter getLoginPresenter(Context ctx) {
+        return new LoginPresenter((ILoginView) mIView,
+                App.from(ctx).getComponent());
+    }
+
 }

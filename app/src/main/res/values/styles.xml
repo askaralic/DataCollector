@@ -1,11 +1,163 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="commonButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:background">@drawable/common_button</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+
+
+    <style name="commonButtonBold" parent="commonButton">
+        <item name="typeface">@string/app_font_bold</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="commonTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+    <style name="commonEditTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="android:background">@drawable/common_border_view</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+
+    <style name="commonActionIconLarge">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+
+    <style name="commonActionIcon">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+    <style name="commonActionIconSmall">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">100dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+
+
+    <style name="commonTextViewSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColorLight</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="typeface">@string/app_font</item>
+    </style>
+    <style name="commonIconSmall">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <style name="commonActionIconStyle">
+        <item name="android:layout_width">@dimen/common_action_icon_size</item>
+        <item name="android:layout_height">@dimen/common_action_icon_size</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="commonTextViewBold" parent="commonTextView">
+        <item name="typeface">@string/app_font_bold</item>
+        <item name="android:textSize">@dimen/common_text_size_h5</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@color/app_color_grey</item>
+    </style>
+
+    <style name="DialogFullScreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="commonListView">
+        <item name="android:layout_height">200dp</item>
     </style>
 
 </resources>

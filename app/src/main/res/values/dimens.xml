@@ -1,0 +1,61 @@
+<resources>
+    <string name="current_dimen_resource" translatable="false">Default Dimens</string>
+    <!-- Default screen margins as per the Android Design guidelines. -->
+
+    <!-- Default screen margins as per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+
+    <!--app_logo-->
+    <dimen name="app_logo_width">100dp</dimen>
+    <dimen name="app_logo_height">100dp</dimen>
+
+
+    <dimen name="dialog_logo_size">70dp</dimen>
+
+    <dimen name="app_logo_small_size">90dp</dimen>
+
+    <!--Tool Bar-->
+    <dimen name="toolbar_app_logo_icon_size">45dp</dimen>
+    <dimen name="toolbar_dtc_logo_width">150dp</dimen>
+    <dimen name="toolbar_dtc_logo_height">45dp</dimen>
+    <dimen name="toolbar_height">65dp</dimen>
+
+
+    <!--navigation drawer -->
+    <dimen name="navigation_header_account_icon_size">120dp</dimen>
+    <dimen name="navigation_icon_size">30dp</dimen>
+    <dimen name="navigation_header_height">100dp</dimen>
+
+    <dimen name="dialog_min_height">300dp</dimen>
+    <dimen name="dialog_min_width">300dp</dimen>
+    <!--Splash Screen-->
+
+
+    <!--Title-->
+    <dimen name="title_icon_size">30dp</dimen>
+    <dimen name="signin_tab_under_line_height">8dp</dimen>
+
+
+    <!--Common controls-->
+    <dimen name="common_spinner_height">35dp</dimen>
+    <dimen name="common_action_icon_size">40dp</dimen>
+    <dimen name="common_action_icon_size_small">23dp</dimen>
+    <dimen name="common_icon_size_small">23dp</dimen>
+    <dimen name="common_icon_size">30dp</dimen>
+    <dimen name="common_dialog_body_height">210dp</dimen>
+    <dimen name="common_dialog_body_width">300dp</dimen>
+    <dimen name="common_rating_card_icon_size">30dp</dimen>
+    <dimen name="custom_progress_bar_small">45dp</dimen>
+    <dimen name="custom_progress_bar_large">100dp</dimen>
+    <!--Common Picker Icon Size-->
+    <dimen name="common_picker_icon_size">40dp</dimen>
+    <dimen name="dash_board_row_size">140dp</dimen>
+    <dimen name="dash_board_row_image_item_size">60dp</dimen>
+    <dimen name="common_item_row_height">45dp</dimen>
+    <dimen name="icon_size_small">30dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_30dp">16dp</dimen>
+    <dimen name="dimen_3dp">3dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+
+</resources>

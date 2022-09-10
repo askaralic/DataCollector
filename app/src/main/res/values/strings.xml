@@ -1,8 +1,51 @@
 <resources>
     <string name="app_name">Base Application</string>
 
-    <string name="app_font">SamsungSans-Regular.ttf</string>
+    <string name="app_font">Gotham-Book.ttf</string>
+    <string name="app_font_bold">Gotham-Book.ttf</string>
     <string name="msg_error_occured">Error Occurred!</string>
     <string name="check_internet_conn">Check Internet Connection</string>
     <string name="please_wait_msg">Please Wait</string>
+
+    <string name="btn_login">Login</string>
+    <string name="btn_upload">Upload</string>
+
+    <string name="label_user_name">User Name</string>
+
+    <string name="label_family_id">Family ID</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_father_name">Father Name</string>
+    <string name="label_mother_name">Mother Name</string>
+    <string name="label_spouse_name">Spouse Name</string>
+    <string name="label_blood_group">Blood Group</string>
+    <string name="label_dob">Date Of Birth</string>
+    <string name="label_member_status">Member Status</string>
+    <string name="label_primary_mobile">Primary Mobile</string>
+    <string name="label_alternative_mobile">Alternative Mobile</string>
+    <string name="label_anbiyam">Anbiyam</string>
+    <string name="label_house_number">House No</string>
+    <string name="label_eb_number">EB Number</string>
+    <string name="label_water_contract_number">Water Contract No</string>
+    <string name="label_proof_of_identity">Proof Of Identity</string>
+    <string name="label_marital_status">Marital Status</string>
+    <string name="label_date_of_marriage">Date of marriage</string>
+    <string name="label_education">Education</string>
+    <string name="label_society_name">Society Names</string>
+    <string name="label_occupation">Occupation</string>
+    <string name="label_company">Company Name</string>
+    <string name="label_working_place">Working Place</string>
+    <string name="label_working_country">Working Country</string>
+
+    <string name="btn_done">Done</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="label_adhar_number">Adhar Number</string>
+
+
+    <string name="label_password">Password</string>
+
+    <string name="message_invalid_dob">Please Select A Valid Date Of Birth</string>
+    <string name="message_empty_username">Please Enter UserName</string>
+    <string name="message_empty_password">Please Enter Password</string>
+
 </resources>

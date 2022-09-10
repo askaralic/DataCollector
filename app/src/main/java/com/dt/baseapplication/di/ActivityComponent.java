@@ -1,5 +1,6 @@
 package com.dt.baseapplication.di;
 
+import com.dt.baseapplication.ui.LoginActivity;
 import com.dt.baseapplication.ui.MainActivity;
 
 import dagger.Component;
@@ -20,5 +21,7 @@ import dagger.Component;
 public interface ActivityComponent {
 
     void inject(MainActivity mainActivity);
+
+    void inject(LoginActivity loginActivity);
 
 }
