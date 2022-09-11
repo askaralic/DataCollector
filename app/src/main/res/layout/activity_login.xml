@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.MainActivity">
 
-    <dt.commons.views.TypeFacedTextView
+    <com.commons.views.TypeFacedTextView
         style="@style/commonTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,35 +20,35 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <dt.commons.views.TypeFacedTextView
+        <com.commons.views.TypeFacedTextView
             style="@style/commonTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_user_name"/>
-        <dt.commons.views.TypeFacedEditText
+        <com.commons.views.TypeFacedEditText
             android:id="@+id/edtUserName"
             style="@style/commonEditTextView"
-            android:text="a"
+            android:text="user1"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:ignore="SpeakableTextPresentCheck" />
-        <dt.commons.views.TypeFacedTextView
+        <com.commons.views.TypeFacedTextView
             style="@style/commonTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/label_password"/>
-        <dt.commons.views.TypeFacedEditText
+        <com.commons.views.TypeFacedEditText
             android:id="@+id/edtPassword"
             style="@style/commonEditTextView"
             android:layout_margin="5dp"
-            android:text="a"
+            android:text="user1"
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:ignore="SpeakableTextPresentCheck" />
 
-        <dt.commons.views.TypeFacedButton
+        <com.commons.views.TypeFacedButton
             android:id="@+id/btnLogin"
             style="@style/commonButton"
             android:layout_width="wrap_content"

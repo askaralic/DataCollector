@@ -7,11 +7,14 @@
     <string name="check_internet_conn">Check Internet Connection</string>
     <string name="please_wait_msg">Please Wait</string>
 
+
+    <string name="btn_submit">Submit</string>
+    <string name="btn_ok">Ok</string>
     <string name="btn_login">Login</string>
     <string name="btn_upload">Upload</string>
+    <string name="btn_clear">Clear</string>
 
     <string name="label_user_name">User Name</string>
-
     <string name="label_family_id">Family ID</string>
     <string name="label_full_name">Full Name</string>
     <string name="label_father_name">Father Name</string>
@@ -47,5 +50,6 @@
     <string name="message_invalid_dob">Please Select A Valid Date Of Birth</string>
     <string name="message_empty_username">Please Enter UserName</string>
     <string name="message_empty_password">Please Enter Password</string>
+
 
 </resources>
